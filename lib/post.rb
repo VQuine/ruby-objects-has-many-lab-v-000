@@ -19,6 +19,7 @@ class Post
   #   end
   # end
   self.author != nil ? return self.author.name : return nil
+end
 
 
 
