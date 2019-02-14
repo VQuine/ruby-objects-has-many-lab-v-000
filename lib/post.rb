@@ -13,7 +13,9 @@ class Post
 
   def author_name
     self.author.name
-  end #<----- class end
+  end
+    
+end #<----- class end
 
 
 #self.author.name #<---assigns the name attritube (in the author file) to the author attritube, to the instantiated object self [defining the Post class objects' author]
