@@ -12,11 +12,12 @@ class Post
   end
 
   def author_name
-  if @name == nil
-    return nil
-  else
-    return self.author.name
-  end
+    @name
+  # if @name == nil
+  #   return nil
+  # else
+  #   return self.author.name
+  # end
   #self.author.name #<---assigns the name attritube (in the author file) to the author attritube, to the instantiated object self [defining the Post class objects' author]
 
   end
